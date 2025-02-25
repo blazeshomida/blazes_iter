@@ -1,0 +1,13 @@
+{
+  "name": "@blazes/iter",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno test --watch",
+    "generate:fp": "deno run --allow-read --allow-write --allow-net scripts/fp.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

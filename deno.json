@@ -4,7 +4,7 @@
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno test --watch",
-    "generate:fp": "deno run --allow-read --allow-write --allow-net scripts/fp.ts"
+    "generate:fp": "deno run --allow-read --allow-write --allow-net scripts/generate_fp.ts"
   },
   "license": "MIT",
   "imports": {
